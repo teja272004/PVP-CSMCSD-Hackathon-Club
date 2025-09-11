@@ -6,7 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
-import AnnouncementsModal from "./components/AnnouncementsModal"; // ✅ Import the popup
+import AnnouncementsModal from "./components/AnnouncementsModal";
+import { Analytics } from "@vercel/analytics/react"; // ✅ use react instead of next
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,9 @@ const App = () => (
             </Routes>
           </main>
         </div>
+
+        {/* ✅ Place Analytics at the very bottom */}
+        <Analytics />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
