@@ -71,6 +71,7 @@ const Header = () => {
                 Join Events
               </a>
             </Button>
+
             <Button
               asChild
               size="sm"
@@ -83,6 +84,21 @@ const Header = () => {
               >
                 <Users className="h-4 w-4 mr-2" />
                 Join Club
+              </a>
+            </Button>
+
+            {/* ✅ New Register Now Button */}
+            <Button
+              asChild
+              size="sm"
+              className="bg-green-600 text-white border-0 hover:bg-green-700"
+            >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfKc8lj86yK2mRhsV-8lNRCBrWh8natG5snHWa2nhcOeKeXtw/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register Now
               </a>
             </Button>
 
@@ -130,6 +146,17 @@ const Header = () => {
               onClick={() => setOpen(false)}
             >
               Guidelines
+            </a>
+
+            {/* ✅ Register Now in Mobile Menu */}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfKc8lj86yK2mRhsV-8lNRCBrWh8natG5snHWa2nhcOeKeXtw/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              onClick={() => setOpen(false)}
+            >
+              Register Now
             </a>
           </nav>
         </div>

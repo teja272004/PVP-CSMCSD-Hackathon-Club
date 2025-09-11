@@ -5,7 +5,7 @@ import Activities from "@/components/Activities";
 import Team from "@/components/Team";
 import Guidelines from "@/components/Guidelines";
 import Footer from "@/components/Footer";
-
+import Announcements from "@/components/Announcements";
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -14,6 +14,7 @@ const Index = () => {
       <Mission />
       <Activities />
       <Team />
+      <Announcements />
       <Guidelines />
       <Footer />
     </div>
