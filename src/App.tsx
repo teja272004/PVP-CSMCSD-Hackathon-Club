@@ -30,7 +30,7 @@ const App = () => (
           />
 
           {/* ✅ Announcements popup */}
-          <AnnouncementsModal />
+          {/*<AnnouncementsModal />*/}
 
           {/* Routes */}
           <main>

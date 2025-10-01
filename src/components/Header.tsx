@@ -88,7 +88,7 @@ const Header = () => {
             </Button>
 
             {/* ✅ New Register Now Button */}
-            <Button
+           { /* <Button
               asChild
               size="sm"
               className="bg-green-600 text-white border-0 hover:bg-green-700"
@@ -100,7 +100,7 @@ const Header = () => {
               >
                 Register Now
               </a>
-            </Button>
+            </Button>*/}
 
             {/* Hamburger for mobile */}
             <Button
@@ -149,7 +149,7 @@ const Header = () => {
             </a>
 
             {/* ✅ Register Now in Mobile Menu */}
-            <a
+           { /*<a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfKc8lj86yK2mRhsV-8lNRCBrWh8natG5snHWa2nhcOeKeXtw/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
@@ -157,7 +157,7 @@ const Header = () => {
               onClick={() => setOpen(false)}
             >
               Register Now
-            </a>
+            </a>*/}
           </nav>
         </div>
       )}
