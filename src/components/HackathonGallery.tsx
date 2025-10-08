@@ -7,12 +7,15 @@ const HackathonGallery = () => {
   const photos: string[] = [
     "/webdev/1.jpg",
     "/webdev/2.jpg",
+    "/webdev/3.jpg",
     "/webdev/4.jpg",
     "/webdev/5.jpg",
     "/webdev/6.jpg",
     "/webdev/7.jpg",
     "/webdev/8.jpg",
     "/webdev/9.jpg",
+    "/webdev/10.jpg",
+    "/webdev/11.jpg"
   ];
 
   return (
