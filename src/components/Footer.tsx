@@ -64,7 +64,7 @@ const Footer = () => {
               © 2025 Idea Hackathons Club - PVPSIT. All Rights Reserved.
             </p>
             <div className="flex items-center space-x-4 text-sm text-blue-200">
-              <span>Designed and Developed By Club Lead</span>
+              <span>Designed and Developed Idea Hackathon Club</span>
             </div>
           </div>
         </div>
